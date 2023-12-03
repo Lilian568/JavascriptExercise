@@ -1,0 +1,9 @@
+let number1 = parseInt(prompt('Input first number:'));
+let number2 = parseInt(prompt('Input second number: '));
+let number3 = parseInt(prompt('Input third number: '));
+sum = number1 + number2 + number3;
+product = number1 * number2 * number3;
+average = sum/3;
+document.querySelector('#sum').innerHTML ="Sum: " + sum
+document.querySelector('#product').innerHTML ="Product: " + product
+document.querySelector('#average').innerHTML ="Average: " + average
